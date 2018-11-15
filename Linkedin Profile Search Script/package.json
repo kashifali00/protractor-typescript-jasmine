@@ -1,0 +1,26 @@
+{
+  "name": "scraper-Linkedin",
+  "version": "1.0.0",
+  "description": "grab the links from linkedin based on search query and job location",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "pretest": "npm run tsc",
+    "test": "node_modules/.bin/protractor conf.js"
+  },
+  "keywords": [],
+  "author": "KashifAli",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jasmine": "2.8.11"
+  },
+  "devDependencies": {
+    "@types/node": "10.12.7",
+    "jasmine-core": "3.3.0",
+    "protractor": "5.4.1",
+    "ts-node": "7.0.1",
+    "tslint": "5.11.0",
+    "typescript": "3.1.6",
+    "@types/selenium-webdriver": "3.0.13"
+  }
+}
